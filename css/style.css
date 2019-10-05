@@ -1,0 +1,557 @@
+body{
+	min-width: 320px;
+	max-width: 1920px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.small-header{
+	background-color: #292929;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.social-box a, .contacts a{
+	display: inline-block;
+	text-align: center;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+}
+
+.social-box a{	
+	border-radius: 500px;	
+}
+
+.social-font-size{
+	font-size: 1.25rem;
+}
+
+.facebook, .facebook:hover {
+	background-color: #3b5998;
+	color: white;
+}
+
+.google-plus, .google-plus:hover {
+	background-color: #fff;
+	color: #9b9b9b;
+}
+
+.twitter, .twitter:hover {
+	background-color: #55acee;
+	color: white;
+}
+
+.contacts a{
+	color: white;
+	width: auto;	
+}
+
+.contacts-icons{
+	font-size: 1.25rem;
+}
+
+.big-header{
+	background-color: #fff;
+	border-bottom: 5px solid #009ce3;
+	padding: 3rem 0;
+}
+
+.navbar-brand span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+}
+
+.menu li a{
+	font-size: 1.25rem;
+}
+
+.menu li a::after{
+	content: '';
+	display: block;
+	background-color: #aaa;
+	height: 3px;
+	width: 100%;
+	transform: scale(0);
+}
+
+.menu li a:hover::after{
+	transform: scale(1);
+	transition: transform .5s;
+}
+
+.color-blue{
+	color: #3366cc;
+}
+
+.color-lightblue{
+	color: #0099ff;
+}
+
+.feature-posts{
+	background-image: url('../img/feature-posts-img.jpg');
+	background-size: cover;
+	padding: 6rem 0;
+	color: white;
+}
+
+.feature-posts-title{
+	font-size: 3.25rem;
+	font-weight: 800;
+	margin-bottom: 2rem!important;
+}
+
+.feature-posts-sale{
+	background-image: url('../icons/sale.png');
+	background-size: 100% 100%;
+	font-weight: 800;
+	color: #fa4a33;
+	font-size: 2.5rem;
+	padding-left: 4rem;
+	padding-right: 3rem;
+}
+
+.feature-posts-text{
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.feature-posts-contacts{
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.faeture-posts-contacts-link a span,
+.faeture-posts-contacts-link p span{
+	font-weight: 700;
+	color: white;
+}
+
+.faeture-posts-contacts-link a img,
+.faeture-posts-contacts-link p img{
+	width: 5rem;
+	height: 5.5rem;
+}
+
+.about-us{
+	padding: 6rem 0;
+}
+
+.about-us-img{
+	width: 40%;
+}
+
+.about-us-content{
+	width: 57%;
+}
+
+.about-us-img .background-img{
+	background-image: url('../img/background-img.jpg');
+	background-size: cover;
+}
+
+.about-us-img .background-img img{
+	position: relative;
+	right: 40px;
+	bottom: 40px;
+	box-shadow: 20px 20px 1px white;
+}
+
+.about-us-content h2{
+	margin-bottom: 1.5rem;
+	margin-left: 6rem;
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: #3c3c3c;
+}
+
+.about-us-text li img{
+	width: 5rem;
+	height: 5.5rem;
+}
+
+.about-us-text li p{
+	padding-left: 1rem;
+	color: #4f4f4f;
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-align: justify;
+}
+
+.about-us-content .get-btn{
+	display: inline-block;
+	padding: 1rem 2rem;
+	margin-left: 6rem;
+	background-color: #fa4a33;
+	color: white;
+	border-radius: 500px;
+	box-shadow: 10px 10px 20px #aaa;
+}
+
+.posts-start{
+	padding-bottom: 6rem;
+}
+
+.posts-start-title, .posts-start-title span{
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: #3c3c3c;
+	margin-bottom: 5rem;
+}
+
+.posts-start-title span{
+	color: #fa4a33;
+}
+
+.posts-start-content li{
+	width: 24%;
+	text-align: center;
+}
+
+.posts-start-content li img{
+	width: 6.5rem;
+	height: 6.5rem;
+	margin-bottom: 2rem;
+}
+
+.posts-start-content li p{
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.contact-us{
+	background-image: url('../img/contact-img.jpg');
+	background-size: cover;
+	padding: 3rem 0;
+}
+
+.contact-us h2{
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: white;
+	margin-bottom: 5rem;
+}
+
+.contact-us-content a,
+.contact-us-content p{
+	width: 31%;
+	margin-bottom: 20px;
+}
+
+.faq{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	background-image: url('../img/faq-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.faq-title{
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: #3c3c3c;
+	margin: 0 auto;
+	margin-bottom: 4rem;
+}
+
+.faq-content, .faq-title{
+	width: 50%;
+}
+
+.faq-content li{
+	width: 100%;
+	padding-top: 1.5rem;
+	border-top: 1px solid #d1d1d1;
+}
+
+.faq-content li:first-child{
+	border-top: none;
+}
+
+.faq-content li h3{
+	position: relative;
+	cursor: pointer;
+}
+
+.spoiler-title{
+	display: inline-block;
+	position: relative;
+	left: 0;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #3c3c3c;	
+	text-align: left;
+	width: 90%;
+	margin-right: 2rem;
+}
+
+.spoiler-title-change{
+	color: #0d3693;
+}
+
+/*Стрілка в акордеоні (закритий)*/
+
+.spoiler-symbol{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	font-size: 2rem;
+	line-height: 2rem;	
+	font-weight: 800;
+	text-align: left;
+	color: #d1d1d1;
+}
+
+/*Стрілка в акордеоні (відкритий)*/
+.spoiler-symbol-change{
+	color: black;
+}
+
+
+.faq-content li p{
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #4f4f4f;
+	width: 90%;
+}
+
+/*Стилі для відкриття абзаців акордеону*/
+
+.faq-text{
+	max-height: 0px;
+	opacity: 0;
+	overflow: hidden;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.open-text{
+	max-height: 300px;
+	overflow: auto;
+	opacity: 1;
+	padding-top: 0.5rem;
+	text-align: justify;
+}
+
+.footer{
+	background-color: #1b1b1b;
+	padding: 5rem 0;
+}
+
+
+
+.footer-social-box li a{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 500px;
+	color: #1b1b1b;
+}
+
+.footer-logo, .footer-logo:hover{
+	font-size: 2rem;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer-menu li a{
+	font-size: 0.9rem;
+	color: white;
+	text-decoration: none;
+}
+
+@media (min-width: 1200px){
+	html{
+		font-size: 16px;
+	}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	html{
+		font-size: 16px;
+	}
+
+	.footer, .big-header{
+		padding: 3rem 0;
+	}
+
+	.faq-title, .faq-content{
+		width: 60%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	html{
+		font-size: 15px;
+	}
+
+	.about-us-img, .about-us-content{
+		width: 70%;
+	}
+
+	.about-us-img{
+		margin-bottom: 3rem;
+	}
+
+	.about-us-content h2{
+		text-align: center;
+	}
+	
+	.about-us-content div{
+		text-align: center;
+	}
+
+	.posts-start-content li{
+		width: 50%;
+		margin-bottom: 2rem;
+	}
+
+	.posts-start-content li:last-child{
+		margin-bottom: 0;
+	}
+
+	.contact-us-content a, .contact-us-content p{
+		width: 50%;
+	}
+
+	.contact-us-content a:last-child{
+		margin-bottom: 0;
+	}
+
+	.faq-title, .faq-content{
+		width: 70%;
+	}
+
+	.footer, .big-header{
+		padding: 3rem 0;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	html{
+		font-size: 14px;
+	}
+
+	.social-box{
+		margin-bottom: 1rem;
+	}
+
+	.about-us-img, .about-us-content{
+		width: 80%;
+	}
+
+	.about-us-img{
+		margin-bottom: 3rem;
+	}
+
+	.about-us-content h2{
+		text-align: center;
+	}
+	
+	.about-us-content div{
+		text-align: center;
+	}
+
+	.posts-start-content li{
+		width: 60%;
+		margin-bottom: 2rem;
+	}
+
+	.posts-start-content li:last-child{
+		margin-bottom: 0;
+	}
+
+	.contact-us-content a, .contact-us-content p{
+		width: 50%;
+	}
+
+	.contact-us-content a:last-child{
+		margin-bottom: 0;
+	}
+
+	.faq-title, .faq-content{
+		width: 80%;
+	}
+
+	.footer, .big-header{
+		padding: 2rem 0;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+	html{
+		font-size: 12px;
+	}
+
+	footer.footer > .container{
+		min-width: 320px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.social-box{
+		margin-bottom: 1rem;
+	}
+
+	.about-us-img{
+		width: 80%;
+	}
+
+	.about-us-content{
+		width: 100%;
+	}
+
+	.about-us-img .background-img img{
+		right: 20px;
+		bottom: 20px;
+		box-shadow: 10px 10px 1px white;
+	}
+
+	.about-us-img{
+		margin-bottom: 3rem;
+	}
+
+	.about-us-content h2{
+		text-align: center;
+	}
+	
+	.about-us-content div{
+		text-align: center;
+	}
+
+	.posts-start-content li{
+		width: 90%;
+		margin-bottom: 2rem;
+	}
+
+	.posts-start-content li:last-child{
+		margin-bottom: 0;
+	}
+
+	.contact-us-content a, .contact-us-content p{
+		width: 80%;
+	}
+
+	.contact-us-content a:last-child{
+		margin-bottom: 0;
+	}
+
+	.faq-title, .faq-content{
+		width: 90%;
+	}
+	
+	.footer, .big-header{
+		padding: 1rem 0;
+	}
+
+	.feature-posts, .about-us, 
+	.posts-start, .contact-us, .faq{
+		padding: 3rem 0;
+	}
+}
